@@ -1,4 +1,4 @@
-import {useState } from "react";
+import { useState } from "react";
 import InvoiceForm from "./components/invoiceform";
 import InvoiceTemplate from "./components/invoicetemplate";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -60,7 +60,7 @@ function App() {
       <Router>
         <Routes>
           <Route
-            path="/"
+            path="/invoicegenerationwebsite"
             element={
               <InvoiceForm
                 itemDetails={itemDetails}
@@ -86,6 +86,3 @@ function App() {
 }
 
 export default App;
-
-
-
